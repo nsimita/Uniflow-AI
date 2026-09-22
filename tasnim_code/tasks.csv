@@ -1,0 +1,5 @@
+task_id,task_name,course,difficulty,required_hours,deadline
+T01,AI Assignment,Artificial Intelligence,4,4,2026-09-24
+T02,Math Quiz,Mathematics,3,2,2026-09-22
+T03,CSE Report,Database Systems,2,3,2026-09-27
+T04,ML Presentation,Machine Learning,5,5,2026-09-25
