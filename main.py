@@ -1,15 +1,13 @@
-# ==========================================
-# UniFlow AI - Study Planner
-# Part 2
-# ==========================================
+
+# Study Planner section
+
 
 from datetime import date, timedelta
 import csv
 
 
-# ------------------------------------------
-# 1. Load Student Information
-# ------------------------------------------
+#   Load Student Information
+
 
 def load_student(filename):
 
@@ -30,9 +28,9 @@ def load_student(filename):
     }
 
 
-# ------------------------------------------
-# 2. Load Tasks
-# ------------------------------------------
+ 
+#  Load Tasks
+ 
 
 def load_tasks(filename):
 
@@ -61,9 +59,9 @@ def load_tasks(filename):
     return tasks
 
 
-# ------------------------------------------
-# 3. Difficulty Score
-# ------------------------------------------
+
+#   Difficulty Score
+ 
 
 def difficulty_score(difficulty):
 
@@ -77,9 +75,7 @@ def difficulty_score(difficulty):
         return 1
 
 
-# ------------------------------------------
-# 4. Priority Score
-# ------------------------------------------
+#   Priority Scores
 
 def priority_score(priority):
 
@@ -93,9 +89,9 @@ def priority_score(priority):
         return 1
 
 
-# ------------------------------------------
-# 5. Calculate Task Priority
-# ------------------------------------------
+
+#   Calculate Task Priority
+
 
 def calculate_priority(tasks):
 
@@ -153,10 +149,8 @@ def calculate_priority(tasks):
 
     return tasks
 
+#   Generate Study Plan
 
-# ------------------------------------------
-# 6. Generate Study Plan
-# ------------------------------------------
 
 def generate_study_plan(
     tasks,
@@ -245,10 +239,8 @@ def generate_study_plan(
 
     return plan
 
+#   Display Student Information
 
-# ------------------------------------------
-# 7. Display Student Information
-# ------------------------------------------
 
 def display_student(student):
 
@@ -273,15 +265,13 @@ def display_student(student):
         student["study_hours_per_day"]
     )
 
+#   Display Task Priority
 
-# ------------------------------------------
-# 8. Display Task Priority
-# ------------------------------------------
 
 def display_task_priority(tasks):
 
     print()
-    print("========== TASK PRIORITY ==========")
+    print("      TASK PRIORITY    ")
 
     for task in tasks:
 
@@ -323,14 +313,14 @@ def display_task_priority(tasks):
         )
 
 
-# ------------------------------------------
-# 9. Display Study Plan
-# ------------------------------------------
+
+#   Display Study Plan
+
 
 def display_study_plan(plan):
 
     print()
-    print("====== GENERATED STUDY PLAN ======")
+    print("  GENERATED STUDY PLAN    ")
 
     current_day = None
 
@@ -372,9 +362,9 @@ def display_study_plan(plan):
     )
 
 
-# ------------------------------------------
-# 10. Display Task Status
-# ------------------------------------------
+ 
+#   Display Task Status
+ 
 
 def display_unfinished_tasks(tasks):
 
@@ -424,11 +414,9 @@ def display_unfinished_tasks(tasks):
         print(
             "All tasks have been scheduled!"
         )
-
-
-# ------------------------------------------
-# 11. Save Study Plan
-# ------------------------------------------
+ 
+# Save Study Plan
+ 
 
 def save_study_plan(plan, filename):
 
@@ -464,9 +452,9 @@ def save_study_plan(plan, filename):
             })
 
 
-# ------------------------------------------
-# 12. Main Program
-# ------------------------------------------
+ 
+#   Main 
+ 
 
 def main():
 
@@ -510,9 +498,9 @@ def main():
     )
 
 
-# ------------------------------------------
-# 13. Start Program
-# ------------------------------------------
+ 
+#   Start Program
+ 
 
 if __name__ == "__main__":
 

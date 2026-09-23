@@ -1,0 +1,51 @@
+course_code,course_name,credit,prerequisite,exam_start_time,exam_end_time
+ENG 1011,English I,3,X,Day 1 9.00 am,Day 1 11.00 am
+BDS 1201,History of the Emergence of Bangladesh,2,X,Day 6 9.00 am,Day 6 11.00 am
+CSE 1110,Introduction to Computer Systems,1,X,,
+MATH 1151,Fundamental Calculus,3,X,Day 2 11.30 am,Day 2 1.30 pm
+ENG 1013,English II,3,ENG 1011,Day 1 11.30 am,Day 1 1.30 pm
+CSE 1111,Structured Programming Language,3,CSE 1110,Day 4 11.30 am,Day 4 1.30 pm
+CSE 1112,Structured Programming Language lab,1,CSE 1110,,
+CSE 2213,Discrete Mathematics,3,X,Day 3 11.30 am,Day 3 1.30 pm
+MATH 2183,Calculus and Linear Algebra,3,MATH 1151,Day 1 2.00 pm,Day 1 4.00 pm
+PHY 2105,Physics,3,X,Day 7 2.00 pm,Day 7 4.00 pm
+PHY 2106,Physics Laboratory,1,X,,
+EEE 2113,Electrical Circuits,3,X,Day 6 2.00 pm,Day 6 4.00 pm
+CSE 2215,Data Structure and Algorithms I,3,CSE 1111,Day 5 11.30 am,Day 5 1.30 pm
+CSE 2216,Data Structure and Algorithms I Laboratory,1,CSE 1111,,
+MAT 2205,Statistics and Probability,3,MATH 1151,Day 2 9.00 am,Day 2 11.00 am
+CSE 2217,Data Structure and Algorithms II,3,CSE 2215,Day 5 9.00 am,Day 5 11.00 am
+CSE 2218,Data Structure and Algorithms II Laboratory,1,CSE 2215,,
+CSE 2219,Digital Logic Design,3,X,Day 3 2.00 pm,Day 3 4.00 pm
+CSE 2220,Digital Logic Design Laboratory,1,X,,
+ACT 2111,Financial and Managerial Accounting,2,X,Day 2 2.00 pm,Day 2 4.00 pm
+CSE 2235,Object Oriented Programming,3,CSE 2215,Day 6 11.30 am,Day 6 1.30 pm
+CSE 3521,Object Oriented Programming Laboratory,1,CSE 2216,,
+CSE 3522,Database management Systems,3,CSE 2215,Day 2 9.00 am,Day 2 11.00 am
+CSE 3314,Database management Systems Laboratory,1,CSE 2216,,
+ECO 2103, Economics,2,X,Day 6 8.30 am,Day 6 10.30 am
+CSE 3315,Microprocessors and Microcontrollers,3,CSE 3313,Day 4 2.00 pm,Day 4 4.00 pm
+CSE 3316,Microprocessors and Microcontrollers Laboratory,1,CSE 3313,,
+CSE 3325,Theory of Computation,3,X,Day 7 11.30 am,Day 7 1.30 pm
+CSE 3327,Operating Systems,3,"CSE 2217, CSE 3313",Day 1 9.00 am,Day 1 11.00 am
+CSE 3328,Operating Systems Laboratory,1,CSE 2218 ,,
+CSE 3345,Computer Networks,3,X,Day 4 2.00 pm,Day 4 4.00 pm
+CSE 3346,Computer Networks Laboratory,1,X,,
+CSE 3321,Software Engineering,3,CSE 3411,Day 2 9.00 am,Day 2 11.00 am
+CSE 3322,Software Engineering Laboratory,1,CSE 3412,,
+CSE 3347,Web Programming,3,CSE 3313,Day 7 9.00 am,Day 7 11.00 am
+ENG 2011,Public Speaking and Technical Writing,2,ENG 1013,Day 4 9.00 am,Day 4 11.00 am
+CSE 4411,Artificial Intelligence,3,"MATH 2205, CSE 2217",Day 3 9.00 am,Day 3 11.00 am
+CSE 4412,Artificial Intelligence Laboratory,1,"MATH 2205, CSE 2218",,
+CSE 44XX,Elective I,3,X,Day 4 2.00 pm,Day 4 4.00 pm
+CSE 44XX,Elective II,3,X,Day 2 2.00 pm,Day 2 4.00 pm
+CSE 44XX,Elective III,3,X,Day 3 2.00 pm,Day 3 4.00 pm
+CSE 3411,System Analysis and Design ,3,CSE 3521,Day 5 9.00 am,Day 5 11.00 am
+CSE 3412,System Analysis and Design lab,1,CSE 3522,,
+EEE 2123,Electronics,3,EEE 2113,Day 6 2.00 pm,Day 6 4.00 pm
+EEE 2124,Electronics lab,1,X,,
+ BIO 3105,Biology for engineers,3,X,Day 3 2.00 pm,Day 3 4.00 pm
+PMG 4101,Project management,3,CSE 3411,Day 5 11.30 am,Day 5 1.30 pm
+IPE 3401,Indrustrial and Operational,3,X,Day 1 9.00 am,Day 1 11.00 am
+CSE 3313,Computer Architecture,3,CSE 2219,Day 1 2.00 pm,Day 1 4.00 pm
+Soc 2101,Society Engineering and Ethics,3,X,Day 1 2.00 pm,Day 1 4.00 pm
